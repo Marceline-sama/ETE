@@ -33,7 +33,7 @@ def get_base64_image():
 
 @app.route('/')
 def home():
-    return render_template('index.html', image_base64=get_base64_image())
+    return render_template('armazenamento-de-agua.html', image_base64=get_base64_image())
 
 
 if __name__ == '__main__':
