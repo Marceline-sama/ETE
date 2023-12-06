@@ -28,6 +28,7 @@ def get_base64_image():
 
     # Converte o buffer em base64
     image_base64 = base64.b64encode(buf.read()).decode('utf-8')
+    print("sei la")
     return image_base64
 
 
